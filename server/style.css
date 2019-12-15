@@ -1,0 +1,23 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+body, header, main, footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 100%;
+  flex-direction: column;
+  margin: 0;
+}
+
+header, footer {
+  height: 10vh;
+}
+
+main {
+  height: 80vh;
+}
